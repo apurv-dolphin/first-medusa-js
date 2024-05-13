@@ -12,7 +12,7 @@ export const GET = async (req: MedusaRequest, res: MedusaResponse) => {
   });
 };
 
-// update a post by its ID 
+// update a post by its ID
 export const POST = async (req: MedusaRequest, res: MedusaResponse) => {
   const postService: PostService = req.scope.resolve("postService");  
 
